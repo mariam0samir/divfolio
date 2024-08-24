@@ -1,0 +1,446 @@
+html{
+scroll-behavior: smooth;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+:root{
+    --main-color:rgb(0,120,255);
+}
+header{
+    background-image: url(imges/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ .border{
+visibility: hidden;
+width: 0;
+height: 2px;
+border: #fff 2px solid;
+transition:all 1s ease;
+
+}
+
+.nav-item:hover  .border{ 
+visibility: visible;
+width:85% ;
+border-bottom: #fff 3px solid;
+} 
+
+ 
+ 
+.momo h2::after{
+    content:"|";
+animation-name: momo;
+animation-duration: 9s;
+animation-iteration-count: infinite;
+transition-delay: 0.2s;
+}
+@keyframes momo{
+0%{content:" |"}
+2.5%{content:"D|"}
+5%{content:"De|"}
+7.5%{content:"Des|"}
+10%{content:"Desi|"}
+12.5%{content:"Desig|"}
+15%{content:"Design|"}
+17.5%{content:"Designe|"}
+20%{content:"Designer|" }
+22.5%{content:"F|"}
+25%{content:"Fr"}
+27.5%{content:"Fre|"}
+30%{content:"Free|"}
+32.5%{content:"Freel|"}
+35%{content:"Freela|"}
+37.5%{content:"Freelan|"}
+40%{content:"Freelanc|"}
+42.5%{content:"Freelance|"}
+45%{content:"Freelancer|"}
+47.5%{content:"D|"}
+50%{content:"De|"}
+52.5%{content:"Dev|"}
+55%{content:"Deve|"}
+57.5%{content:"Devel|"}
+60%{content:"Develo|"}
+62.5%{content:"Develop|"}
+65%{content:"Develope|"}
+67.5%{content:"Developer|"}
+70%{content:"P|"}
+72.5%{content:"Ph|"}
+75%{content:"Pho|"}
+77.5%{content:"Phot|"}
+80%{content:"Photo|"}
+82.5%{content:"Photog|"}
+85%{content:"Photogr|"}
+90%{content:"Photogra|"}
+92%{content:"Photograf|"}
+95%{content:"Photografe|"}
+100%{content:"Photografer|"}
+}
+.navbar{
+    z-index:9999999999999;
+}
+.momo h1{
+  font-size: 72px;
+  font-weight:600 ;
+  line-height: 86px;
+}
+.momo h2{
+    font-size: 40px;
+    line-height: 60px;
+    font-weight:600 ;
+}
+
+                                     /* about */
+.about-part2 img{
+    width:150px;
+    height: 150px;
+    position:absolute;
+    left:30px;
+}
+.zozo{
+    padding:4rem  0;
+}
+.xoxo{
+    padding: 4rem !important;
+}
+.about-part li{
+    list-style: none;
+    padding-left: 0;
+   color:4e4e4e;
+}
+.about-part span{
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+.about-part ul{
+    padding-left: 0;
+}
+
+.border-big{
+width: 100%;
+position:relative;
+border-bottom:12px solid rgb(205,225,248);
+}
+.border-child{
+position: absolute;
+animation-name:width ;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-timing-function:ease ;
+border-bottom:12px solid var(--main-color);
+}
+.vona{
+    width: 85%;
+}
+.nono{
+    width:75%;
+}
+.bobo{
+    width: 50%;
+}
+.gogo{
+    width: 90%;
+}
+.coco h3{
+    font-Size:32px;
+Line-Height:38px;
+Color:#1e1e1e;
+
+}
+.coco h3::after{
+    content: "";
+    width:20%;
+position:absolute;
+border:1px solid var(--main-color) ;
+top:100%;
+left:0;
+margin:10px 0;
+}
+
+
+                                                    /* services */
+.head p::after{
+    position: absolute;
+    top:100%;
+    left: 50%;
+    translate:0 -50% ;
+    content:"";
+    width:45px;
+    transform: translateX(-50%);
+    border-bottom:5px solid var(--main-color);
+}
+.icon-services{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border:10px solid var(--main-color);
+    color:black;
+}
+.icon-services i{
+    font-size: large;
+}
+.hover:hover  .icon-services{
+    background-color:var(--main-color) ;
+    border:10px solid rgb(205,225,248);
+    color:#ffd;
+}
+.photo{
+    /* height: 420px; */
+ background-size:cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+background-image:url(imges/counters-bg.jpg) ;
+background-attachment: fixed;
+}
+
+.divaia{
+    background-color:rgba(0, 120,255, 0.8);
+    /* height:420px ; */
+}
+.part h3{
+    animation:num ;
+    top:100%;
+    right:50% ;
+    transition: animation 1s ;
+}
+.part h3::after{
+    content: "450";
+    position: absolute;
+    animation: num 2s ease  1 normal ;
+}
+@keyframes num{
+0%{content:"15"};
+15%{content:"15"};
+30%{content:"50"}
+40%{content:"60"}
+40%{content:"100"}
+450%{content:"130"}
+50%{content:"150"}
+55%{content:"180"}
+60%{content:"200"}
+65%{content:"230"}
+70%{content:"280"}
+75%{content:"310"}
+80%{content:"370"}
+85%{content:"390"}
+90%{content:"410"}
+95%{content:"430"}
+30%{content:"450"}
+}
+
+
+
+.fofo{
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 10px solid rgb(205,225,248) ;
+}
+
+                                   /* work */
+.wowo::after{
+    position: absolute;
+    top:100%;
+    left: 50%;
+    translate:0 -50% ;
+    content:"";
+    width:45px;
+    transform: translateX(-50%);
+    border-bottom:5px solid var(--main-color);
+}
+
+                          /* hhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+.body-two{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+border: var(--main-color) solid 4px;
+}
+.body-one span{
+    color:var(--main-color)
+}
+.body-two a::after{
+content: "";
+width: 25px;
+height: 2px;
+position: absolute;
+top:50% ;
+right: 22%;
+transform: translateY(-50%);
+background-color: red;
+
+}
+.body-two a::before{
+    content: "";
+    width: 2px;
+    height: 25px;
+    position: absolute;
+    top:50% ;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    background-color:yellow;
+    } 
+    .card img{
+        transition:0.5s all ease ;
+        overflow: hidden;
+    }
+.card:hover img{
+    overflow: hidden;
+    transform: scale(1.2);
+}
+.card{
+    overflow: hidden;
+}
+.corner{
+    width:40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 40px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+}
+
+
+.photto{
+    background-image: url(imges/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.lolo{
+    background-color: rgba(0, 120,255, 0.7) ;
+}
+/*                  
+                                 blog */
+.zpzp{
+    width:40px;
+    height:5px;
+    left:50% ;
+    top:100%;
+    transform: translateX(-50%);
+    background-color: var(--main-color);
+    position:absolute;
+}
+.post h5{
+    background-color: var(--main-color);
+    padding: 2px 8px !important;
+    border-radius: 3px;
+    font-size:16px !important ;
+    transform: translateY(-50%);
+}
+.post h4{
+    transition: color 0.5s ease-in;
+}
+.post h4:hover{
+    color:var(--main-color)
+}
+.nano-head{
+    transition: color 0.5 ease-in;
+}
+.nano-head span:hover{
+color: var(--main-color);
+}
+.nano-head img{
+    width:20px;
+    height: 20px;
+}
+.post{
+    border:rgb(203,203,203) solid 1px;
+    border-radius: 3px;
+}
+
+.qoqo{
+    border:rgb(203,203,203) solid 1px;
+    border-radius: 3px;
+
+}
+                                      /* contact */
+.contact{
+    background-image: url(imges/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+.over{
+    height: 100vh;
+    width: 100%;
+    background-color:rgba(0,120,255,0.7);
+}
+ .vroro p{
+    width:130px;
+    height:3px;
+    background-color: var(--main-color);
+
+ }
+ .sodo{
+    border: solid 1px rgb(206,212,218);
+    outline: none;
+    padding: 10px 0;
+    padding-left: 20px;
+    padding-right: 300px;
+    color:rgb(108,117,125);
+ }
+ .sodo:focus{
+    border: solid 1px var(--main-color);
+    box-shadow: 1px 1px 1px 1px 1px rgb(79, 136, 201) ;
+ }
+ textarea{
+    padding-top: 10px;
+    padding-left: 20px;
+    border: solid 1px rgb(206,212,218);
+    outline: none;
+    color:rgb(108,117,125);
+ }
+ textarea:focus{
+    border: solid 1px var(--main-color);
+ }
+ button{
+    padding-bottom: 10px;
+    border-radius:30px !important;
+    transition: all 0.5s ease-in;
+    margin-bottom: 20px;
+ }
+ button:hover{
+    border:2px solid rgb(205,225,248) !important ;
+    background-color: rgb(79, 136, 201);
+ }
+ li{
+list-style: none;
+ }
+ .lgogo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid var(--main-color);
+    transition: 0.5s all ease-in;
+ }
+ .lgogo:hover{
+    color: #fff;
+    background-color: var(--main-color);
+    border:3px solid rgb(205,225,248) ;
+ }
+ .dedo span{
+    color: var(--main-color);
+ }
+ .vdvd {
+    width:130px;
+    height:3px;
+    background-color: var(--main-color);
+ }
+ footer{
+     height: 140px;
+    background-image: url(imges/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+ }
+ .bnbn{
+    height: 140px;
+    background-color:rgba(0,120,255,0.7);
+ }

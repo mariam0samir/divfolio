@@ -1,0 +1,19 @@
+:root
+{
+    --main-color:#4726e1;
+}
+.text-main 
+{
+    color: var(--main-color);
+}
+body 
+{
+    font-family: 'segoe ui light';
+}
+.icon
+{
+    color: orange;
+    font-size: 200px;
+    background-color: gray;
+    padding: 20px;
+}
